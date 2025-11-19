@@ -1,0 +1,92 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+  }
+  
+
+header {
+
+	background-image: url(../images/Achtergrondmenu.png);
+	background-size: cover;
+	align-items: center;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+}
+
+header > img {
+	margin: 10px; 
+	margin-left: 20px;
+	height: 65px;   /* maak kleiner of groter naar smaak */
+	width: auto;    /* zodat hij niet vervormt */
+  }
+  
+header > button {
+
+	height: 40px;
+	margin: 10px;
+	width: auto;
+
+}
+
+#hamburgermenu {
+	font-size: 30px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+
+.zoekicon {
+    font-size: 30px;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: white;
+   
+}
+
+.rotated {
+    display: inline-block;
+    transform: scaleX(-1);
+}
+
+.knoppen {
+	display: flex;
+	gap: 10px;        /* ruimte tussen zoekicon en hamburger */
+	margin-right: 20px;
+}
